@@ -10,7 +10,7 @@ export class ListadoComponent{
   heroes:string[] = ['Ironman', 'Spiderman', 'Hulk', 'Capitan America', 'Thor'];
   heroeBorrado:string = '';
   borrarHeroe(){
-    this.heroeBorrado = this.heroes.shift() || '';
+    this.heroeBorrado = this .heroes.shift() || '';
   }
 
 }
